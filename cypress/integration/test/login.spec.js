@@ -2,12 +2,24 @@
 
 context('Actions', () => {
   beforeEach(() => {
-    cy.visit('http://www.google.nl')
+    cy.visit('http://aab-web-dev05.delft.tjip.com/havik-orientation-nextgen/ui/')
   })
  
-  it('cy.window() - get the global window object', () => {
-    // https://on.cypress.io/window
-    //cy.window().should('have.property', 'top')
-  })
+
+
+it('test',() => {
+
+  cy.get('.maximale-hypotheek-expats')
+  .should('be.visible')
+  .click()
+
+  cy.get('.progress-bar').should('have.attr')
+
+});
+
+
+
+
+
  
  })
