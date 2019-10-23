@@ -15,7 +15,7 @@
             "--timeout",
             "999999",
             "--colors",
-            "${workspaceFolder}/testPact/consumer"
+            "${workspaceFolder}/testPact/consumer/conTest.js"
         ],
         "internalConsoleOptions": "openOnSessionStart"
     }

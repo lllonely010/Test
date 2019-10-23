@@ -11,8 +11,8 @@ describe("The Dog API", () => {
 
   const provider = Pact({
     port: port,
-    log: path.resolve(process.cwd(), "logs", "mockserver-integration.log"),
-    dir: path.resolve(process.cwd(), "pacts"),
+    log: path.resolve(process.cwd(), "testPact/logs", "mockserver-integration.log"),
+    dir: path.resolve(process.cwd(), "testPact/pacts"),
     spec: 2,
     consumer: "MyConsumer",
     provider: "MyProvider",
