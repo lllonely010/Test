@@ -21,12 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lllonely010/cypressTest.git"
+    "url": "git+https://github.com/lllonely010/jsTest.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lllonely010/cypressTest/issues"
+    "url": "https://github.com/lllonely010/jsTest/issues"
   },
-  "homepage": "https://github.com/lllonely010/cypressTest#readme"
+  "homepage": "https://github.com/lllonely010/jsTest#readme"
 }
